@@ -79,7 +79,6 @@ public class BarnesAndNobleTest {
         BookDatabase mockDb = mock(BookDatabase.class);
         BuyBookProcess mockBb = mock(BuyBookProcess.class);
 
-
         Book book = new Book("2121", 10,7);
 
         when(mockDb.findByISBN("2121")).thenReturn(book);
