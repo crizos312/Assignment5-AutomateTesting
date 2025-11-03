@@ -14,6 +14,7 @@ public class Amazon {
         this.rules = rules;
     }
 
+
     public double calculate() {
         double finalPrice = 0;
 
@@ -24,7 +25,7 @@ public class Amazon {
         return finalPrice;
     }
 
-    public void addToCart(Item item){
+    public void addToCart(Item item) {
         carts.add(item);
     }
 }
