@@ -5,7 +5,6 @@ import org.example.Amazon.Cost.ItemType;
 import org.example.Amazon.Database;
 import org.example.Amazon.Item;
 import org.example.Amazon.ShoppingCartAdaptor;
-import org.example.Barnes.Book;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;

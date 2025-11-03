@@ -4,9 +4,6 @@ import org.example.Amazon.Amazon;
 import org.example.Amazon.Cost.*;
 import org.example.Amazon.Item;
 import org.example.Amazon.ShoppingCart;
-import org.example.Barnes.BarnesAndNoble;
-import org.example.Barnes.BookDatabase;
-import org.example.Barnes.BuyBookProcess;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -14,7 +11,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertNull;
 import static org.mockito.Mockito.*;
 
 public class AmazonUnitTest {
