@@ -28,7 +28,7 @@ jobs:
 
       - name: Upload Checkstyle Result
         ##TODO
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: Checkstyle Result
           path: target/checkstyle-result.xml
